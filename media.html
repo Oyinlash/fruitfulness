@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width:12000px) {
+            body{
+                background-color: blue;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                margin: 20px;
+                padding: 20px;
+                border: none;
+                
+            }
+            .box{
+                padding: 20px;
+                margin: 20px;
+                border: none;
+                background-color: aqua;
+            }
+            
+        }
+
+        @media screen and (max-width:900px) {
+            body{
+                background-color: yellow;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: auto auto;
+                margin: 20px;
+                padding: 20px;
+                border: none;
+                
+            }
+            .box{
+                padding: 20px;
+                margin: 20px;
+                border: none;
+                background-color: palevioletred;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            body{
+                background-color: red;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: auto;
+                margin: 20px;
+                padding: 20px;
+                border: none;
+                
+            }
+            .box{
+                padding: 20px;
+                margin: 20px;
+                border: none;
+                background-color: limegreen;
+            }
+            
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos, laudantium saepe cum sequi non praesentium sit nulla, voluptatibus laboriosam distinctio earum eum rem dolorum, nesciunt illo eaque maxime hic?</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos, laudantium saepe cum sequi non praesentium sit nulla, voluptatibus laboriosam distinctio earum eum rem dolorum, nesciunt illo eaque maxime hic?</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos, laudantium saepe cum sequi non praesentium sit nulla, voluptatibus laboriosam distinctio earum eum rem dolorum, nesciunt illo eaque maxime hic?</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos, laudantium saepe cum sequi non praesentium sit nulla, voluptatibus laboriosam distinctio earum eum rem dolorum, nesciunt illo eaque maxime hic?</div>
+        
+    </div>
+</body>
+</html>
